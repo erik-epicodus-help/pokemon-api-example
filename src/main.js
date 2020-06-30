@@ -14,7 +14,7 @@ $(document).ready(function () {
     request.onreadystatechange = function () {
       if (this.readyState === 4 && this.status === 200) {
         const response = JSON.parse(this.responseText);
-        getElements() // Called here because the request is an async task, so we need to wait for the request to complete before we update our DOM (otherwise we won't have anything to update the DOM with)
+        getElements(response) // Called here because the request is an async task, so we need to wait for the request to complete before we update our DOM (otherwise we won't have anything to update the DOM with)
       }
     }
 
