@@ -1,28 +1,27 @@
-# _PROJECT NAME_
+# _Pokemon API Example!_
 
-#### _SHORT DESCR_
+#### _This project shows a quick example of the Pokemon API._
 
-#### By _**YOUR NAME HERE**_
+#### By _**Erik Irgens**_
 
 ## Description
 
-_Long deiscription._
-
-### Specs
-| Spec | Input | Output |
-| :-------------     | :------------- | :------------- |
+_This project shows a quick example of the Pokemon API, showing how we use AJAX calls (without promises) and how to parse the JSON's information and place it into our DOM._
 
 
 ## Setup/Installation Requirements
 
-* _Visit the following link: _
+* _Visit the following link: https://github.com/erik-epicodus-help/pokemon-api-example _
 * _Clone the repository to your desired directory._
-* _OR_
-* _Visit here: _
+* _In the terminal, while in the root project directory, run the following commands to view the project in a web browser:
+* `npm install`
+* `npm run build`
+* `npm run start`
+
 
 
 ## Known Bugs
-
+_A user must supply either a number, or a lower-case name of an existing Pokemon. A number outside of the range of available Pokemon or a name that is either misspelled or not lowercase will return no results._
 _ _
 ## Support and contact details
 
